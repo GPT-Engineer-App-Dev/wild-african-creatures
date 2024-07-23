@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Paw, Leaf, Fish } from 'lucide-react';
+import { ChevronDown, Leaf } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -15,8 +15,8 @@ const AnimalCard = ({ name, description, habitat, diet }) => (
         <span>Habitat: {habitat}</span>
       </div>
       <div className="flex items-center">
-        <Paw className="mr-2 text-orange-500" />
-        <span>Diet: {diet}</span>
+        <span className="font-semibold mr-2">Diet:</span>
+        <span>{diet}</span>
       </div>
     </CardContent>
   </Card>
