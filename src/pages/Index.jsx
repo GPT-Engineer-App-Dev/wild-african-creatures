@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Paw, Leaf, Droplet } from 'lucide-react';
+import { ChevronDown, Paw, Leaf, Fish } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
